@@ -5,7 +5,7 @@
 		<meta name="description" content="description à inscrire ici" />
 		<meta name="google-site-verification" content="3I7gOh7jw9or_G40-4XOEO6GEYsEV0ZG-ZbfzA84PtM" />
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="style.css">
 		<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" />
 		<link rel="canonical" href="https://theopercheron.com/" />
