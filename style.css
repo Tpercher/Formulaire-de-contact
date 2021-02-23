@@ -1,0 +1,78 @@
+
+												                            /*		    	FORMULAIRE			    	*/
+form{
+	width: 80%;
+	text-align: center;
+	margin:auto;
+}
+
+label,input,textarea{
+	display: block;
+}
+label{
+	margin: 0 1% 0;
+}
+
+input,textarea{
+	font-size: .7em;
+	margin: auto;
+	padding: 1.5%;
+	border:none;
+	border-radius: 10px;
+	width: 75%;
+	font-family: 'Oswald', sans-serif;
+}
+textarea{
+	resize: none;
+	height: 15vh;
+}
+
+input[type=submit],input[type=reset]{
+	width: 34%;
+	display: inline-block;
+	cursor: pointer;
+	background:#000;
+	color: #fff;
+	margin-top: 20px;
+}
+input[type=reset]{
+	background:#fff;
+	color: #000;
+}
+
+input[type=submit]:hover{
+	background:crimson;
+	color: #fff;
+}
+input[type=reset]:hover{
+	background:dodgerblue;
+	color: white;
+}
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
+	font-style: italic;
+	color: grey;
+
+}
+
+input::-moz-input-placeholder,textarea::-moz-input-placeholder{
+	font-style: italic;
+	color: grey;
+
+}
+
+input::-o-placeholder,textarea::-o-placeholder{
+	font-style: italic;
+	color: grey;
+
+}
+
+.txtobligatoire{
+  text-align: center;
+}
+
+.obligatoire{
+  font-weight: bold;
+  color: red;
+  font-size: 25px;
+}
